@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.p-dropdown {background: #FFFFFF;border: 1px solid #E4E7EC !important;border-radius: 5px !important;}
+.p-dropdown .p-dropdown-label.p-placeholder {color: #6c757d;font-style: normal;font-weight: 400;font-size: 0.8rem;line-height: 17px;}
+.custp-calender .p-calendar .p-inputtext::placeholder {padding-left: 31px;color: #6c757d !important;font-weight: 400;font-size: 0.8rem;line-height:7px;padding-top: 8px;}
+.custp-calender .p-calendar .p-inputtext {padding-left:5px;color: #6c757d !important;font-weight: 400;font-size: 0.8rem;line-height:7px;border: 1px solid #E4E7EC !important;}
+.custp-calender .p-calendar .p-filled {padding-left: 35px;}
+.box-shadow-1 {box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1);}
+.box-shadow-2 {box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);}
+.custp-table .p-datatable .p-datatable-thead > tr > th {background: #FFFFFF !important;color: #667085!important;letter-spacing: -0.02em;font-weight: 500 !important;font-size: 12px;line-height: 18px;border: 1px solid #ffffff;padding: 0.677vw;}
+.custp-table-d .p-datatable .p-datatable-thead > tr > th {background: #FFFFFF !important;color: #667085!important;letter-spacing: -0.02em;font-weight: 500 !important;font-size: 12px;line-height: 18px;border: 1px solid #ffffff;padding: 0.677vw;}
+.custp-table-d .p-datatable .p-datatable-tbody > tr > td {border: 1px solid #ffffff;font-weight: 400;font-size:0.833vw;line-height: 20px;color: #98A2B3;}
+.custp-table .p-datatable .p-datatable-tbody > tr > td {border: 1px solid #ffffff;font-weight: 400;font-size:0.833vw;line-height: 20px;color: #344054;padding-top: 0.885vw;padding-bottom: 0.885vw;}
+.p-dropdown .p-dropdown-label {padding-top: 0.8rem;color: #6c757d !important;font-weight: 400;font-size:0.8rem;line-height:7px;}
+.p-dropdown.p-component.p-inputwrapper.p-inputwrapper-filled {padding-top: 0.3rem;}
+.cust-select .p-icon {width: 0.8rem;height: 0.8rem;color: #344054;}
+#SelectperiodExpand {left: 0;position: fixed;z-index: 99;top: 0;width: 100%;height: 100%;}
+.p-button:focus {box-shadow: 0 0 0 0px #ffffff, 0 0 0 0px #b1b3f8, 0 0px 0px 0 rgb(0, 0, 0) !important;}
+.custp-table .p-datatable .p-datatable-tbody > tr:nth-child(1) {background: #F9FAFB;}
+.custp-table .p-datatable .p-datatable-tbody > tr:nth-child(2) {background: #F9FAFB;}
+.custseledate .p-icon {width: 0.8rem;height: 0.8rem;color: #344054;}
+.custseledate .p-dropdown .p-dropdown-label {padding-top: 0.3rem;font-weight: 400;font-size: 0.8rem;}
+.custseledate .p-calendar .p-inputtext::placeholder {padding-left: 31px;color: #6c757d !important;font-weight: 400;font-size: 0.8rem;line-height:7px;padding-top: 8px;}
+.custinput-h input.p-inputtext {border-radius: 5px 0 0 5px;width: 5.25rem;padding: 0 11px;font-size: 0.8rem;}
+.custinput-m input.p-inputtext {border-radius: 5px 0 0 5px;width: 5.25rem;padding: 0 11px;font-size: 0.8rem;}
+.custbutn .p-button {background: #113699;border: 1px solid #113699;box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);border-radius: 8px;padding: 0.521vw 0.833vw;width: 100%;}
+.custbutn .p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {background: #113699;color: #ffffff;border-color: #113699;}
+.custbutn .p-button:enabled:active, .p-button:not(button):not(a):not(.p-disabled):active {background: #113699;
+color: #ffffff;border-color: #113699;}
+.custbutn .p-button .p-button-label {font-weight: 500;font-size: 0.729vw;line-height: 20px;color: #FFFFFF;}
+.custdialog-head.p-dialog .p-dialog-header .p-dialog-title {font-weight: 700;font-size: 18px;line-height: 28px;letter-spacing: -0.02em;color: #101828;}
+.custmCalendar .p-calendar {
+    display: block;
+}
+.custmCalendar .p-datepicker .p-datepicker-header {
+    padding: 0;
+    color: #495057;
+    background: #F2F4F7;
+    font-weight: 600;
+    margin: 0;
+    border-bottom: 0;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.custmCalendar .p-datepicker {
+    padding: 0;
+    background: #ffffff;
+    color: #495057;
+    border: 0;
+    border-radius: 4px;
+}
+.custmCalendar .p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-year, .custmCalendar .p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month {
+    color: #113699;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0;
+}
+.custmCalendar .p-datepicker-calendar-container .p-datepicker-calendar tbody tr td {
+    border: 1px solid #D0D5DD;
+    padding: 0;
+}
+.custmCalendar .p-datepicker-calendar-container .p-datepicker-calendar {
+    margin: 0;
+}
+.custmCalendar .p-datepicker table td.p-datepicker-today > span {
+    background: #DC6803;
+    color: #FAFBFF;
+    width: 100%;
+    border-radius: 0;
+}
+.custmCalendar .p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):hover {
+    background: #DC6803;
+    color: #FAFBFF;
+    width: 100%;
+    border-radius: 0;
+}
+.custmCalendar .p-datepicker table td > span.p-highlight {
+    color: #FAFBFF;
+    background: #DC6803;
+    width: 100%;
+    border-radius: 0;
+}
+.custmCalendar .p-datepicker table td.p-datepicker-today > span.p-highlight {
+    color: #FAFBFF;
+    background: #DC6803;
+    width: 100%;
+    border-radius: 0;
+}
+.Inter-FontFamily {font-family: 'Inter', sans-serif;}
+.cusdropdown .p-dropdown .p-dropdown-label.p-inputtext.p-placeholder {color: #000 !important;font-size: 13px;font-weight: 400;padding: 4px 15px;line-height: 30px;}
+.cusdropdown .p-dropdown-trigger .p-icon.p-dropdown-trigger-icon.p-clickable {width: 11px;height: 11px;color: #667085;}
+.cancelBtnbgnone {font-weight: 500;font-size: 0.938vw;line-height: 1.458vw;color: #667085;}
+@media (max-width: 1024px) {
+.p-dropdown .p-dropdown-label.p-placeholder {font-size: 12px;}
+.custp-calender .p-calendar .p-inputtext::placeholder {font-size: 12px;}
+.custp-table-d .p-datatable .p-datatable-tbody > tr > td {font-size:14px;}
+.custp-table .p-datatable .p-datatable-tbody > tr > td {font-size: 14px;padding-top: 17px;padding-bottom:17px;}
+.custbutn .p-button .p-button-label {font-size:14px;padding: 10px 16px;}
+.cancelBtnbgnone {font-size: 14px;line-height: 28px;}
+ }

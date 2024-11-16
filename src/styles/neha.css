@@ -1,0 +1,140 @@
+.emp-simple-tbl .p-datatable .p-column-header-content{
+    color:#667085 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+}
+.emp-simple-tbl .p-datatable .p-datatable-tbody > tr > td,
+.emp-simple-tbl .p-datatable .p-datatable-thead > tr > th{
+    border-width: 0 !important;
+    background-color: #fff !important;
+}
+.emp-simple-tbl .p-datatable>.p-datatable-wrapper{
+    border-radius: 8px !important;
+}
+.emp-simple-tbl .p-datatable .p-datatable-tbody > tr > td{
+    color: #344054 !important;
+    font-size: 12px !important;
+    border-bottom: 1px solid #E4E7EC !important;
+}
+
+.reports-popup  {
+    min-height: 100% !important;
+    margin-right: 0 !important;
+}
+.reports-popup .p-dialog-header{
+    display: none !important;
+}
+.reports-popup  .p-dialog-content {
+    padding: 0 !important;
+}
+
+.reports-popup .p-dialog-footer {
+    position: absolute !important;
+    background-color: transparent !important;
+    top:0 !important;
+}
+.reports-popup .p-dialog-footer img{
+    position: absolute !important;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #E4E7EC;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+  .roletabs 
+  {
+    filter: drop-shadow(0px 1px 3px rgba(16, 24, 40, 0.1));
+  }
+  .roletabs .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: #FFFFFF !important;
+    border-radius: 4px !important;
+    color:#344054 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    
+  }
+  .roletabs  .p-checkbox .p-checkbox-box 
+  {
+    width: 18px;
+    height: 18px;
+  }
+  .roletabs .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    background-color: #F0F4F5 !important;
+    border-radius: 4px !important;
+    color: #98A2B3 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-right: 5px !important;
+  }
+  .roletabs .top-3{
+    top:15px !important;
+  }
+
+  .roletabs .p-tabview .p-tabview-nav{
+    background-color: transparent !important;
+  }
+  .roletabs .p-tabview .p-tabview-nav ,
+  .roletabs .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    border-width: 0 !important;
+  }
+  .roletabs .p-tabview .p-tabview-nav .p-tabview-ink-bar{
+    display: none !important;
+  }
+
+  .roletbl .p-datatable .p-datatable-thead > tr > th{
+    color: #667085 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    background-color: #fff !important;
+    border-width: 0 !important;
+  }
+  .roletbl .p-datatable .p-datatable-tbody > tr > td{
+    border-width: 0 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #344054 !important;
+    padding: 10px 15px !important;
+    white-space:  nowrap !important;
+  }
+  .roletbl .p-datatable .p-datatable-tbody > tr:nth-child(odd){
+    background-color: #F9FAFB !important;
+  }
+.roletbl .p-column-header-content .p-checkbox .p-component{
+    display: none !important;
+}
+.roletabs .p-tabview .p-tabview-panels{
+    padding: 0 !important;
+}
+.roletbl .p-checkbox .p-checkbox-box.p-highlight{
+    background-color: #fff !important;
+    border: 1px solid #113699 !important;
+}
+.roletbl .p-checkbox .p-checkbox-box .p-checkbox-icon{
+    color: #113699 !important;
+}
+
+.select-styling .p-dropdown{
+  background: #FFFFFF !important;
+  border: 1px solid #D0D5DD !important;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
+  border-radius: 8px !important;
+}
+.password-wrapper .p-password input.p-inputtext{
+  width: 100% !important;
+}
